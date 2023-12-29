@@ -86,16 +86,22 @@ code_root/
 #### Evaluation
 
 For the setting of Open Vocabulary Semantic Segmentation， our model does not require training; it directly produces segmentation results.
-The ‘open_vocabulary’ folder contains code for open vocabulary semantic segmentation. It includes scripts for the voc, coco, and Pascal context datasets. Running scripts in this folder will generate segmentation results for the respective datasets.
-To obtain the final mean intersection over union (miou), run the evaluation script on the segmentation results.
+
+
+The ‘open_vocabulary’ folder contains code for open vocabulary semantic segmentation. It includes scripts for the voc, coco, and Pascal context datasets.
 
 Taking the voc10 dataset as an example:
-step 1: Modify your dataset path in the Python file.
+
+Step 1: Modify your dataset path in the Python file.
+
 Step 2: Run ptp_stable_voc10.py to generate segmentation results.
-'''
+
+```
 python ptp_stable_voc10.py
-'''
+```
+
 Step 3: Run the evaluation script, remember to update the file path. MIoU will be recorded in eval.txt
-'''
+
+```
 python evaluation_cvoc10.py
-'''
+```
