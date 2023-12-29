@@ -16,7 +16,7 @@ By [Jinglong Wang],  [Xiawei Li],  [Jing zhang](https://scholar.google.com.hk/ci
 This repository is an official implementation of the paper [Diffusion Model is Secretly a Training-free Open Vocabulary Semantic Segmenter](https://arxiv.org/abs/2309.02773).
 
 
-## Citing Deformable DETR
+## Citing DiffSegmenter
 If you find DiffSegmenter useful in your research, please consider citing:
 ```bibtex
 @misc{wang2023diffusion,
@@ -29,7 +29,7 @@ If you find DiffSegmenter useful in your research, please consider citing:
 }
 ```
 
-
+<!-- 
 *Note:*
 
 1. All models of Deformable DETR are trained with total batch size of 32. 
@@ -38,7 +38,7 @@ If you find DiffSegmenter useful in your research, please consider citing:
 4. "DC5" means removing the stride in C5 stage of ResNet and add a dilation of 2 instead.
 5. "DETR-DC5+" indicates DETR-DC5 with some modifications, including using Focal Loss for bounding box classification and increasing number of object queries to 300.
 6. "Batch Infer Speed" refer to inference with batch size = 4  to maximize GPU utilization.
-7. The original implementation is based on our internal codebase. There are slight differences in the final accuracy and running time due to the plenty details in platform switch.
+7. The original implementation is based on our internal codebase. There are slight differences in the final accuracy and running time due to the plenty details in platform switch. -->
 
 
 ## Installation
