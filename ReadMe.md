@@ -29,29 +29,19 @@ If you find DiffSegmenter useful in your research, please consider citing:
 }
 ```
 
-<!-- 
-*Note:*
-
-1. All models of Deformable DETR are trained with total batch size of 32. 
-2. Training and inference speed are measured on NVIDIA Tesla V100 GPU.
-3. "Deformable DETR (single scale)" means only using res5 feature map (of stride 32) as input feature maps for Deformable Transformer Encoder.
-4. "DC5" means removing the stride in C5 stage of ResNet and add a dilation of 2 instead.
-5. "DETR-DC5+" indicates DETR-DC5 with some modifications, including using Focal Loss for bounding box classification and increasing number of object queries to 300.
-6. "Batch Infer Speed" refer to inference with batch size = 4  to maximize GPU utilization.
-7. The original implementation is based on our internal codebase. There are slight differences in the final accuracy and running time due to the plenty details in platform switch. -->
 
 
 ## Installation
 
 ### Requirements
 
-* Linux, CUDA>=11.5, GCC>=9.4
+* Linux, CUDA>=11.7, GCC>=9.4
   
 * Python>=3.8
 
     We recommend you to use Anaconda to create a conda environment:
     ```bash
-    conda create -n ldm python=3.7 pip
+    conda create -n ldm python=3.8
     ```
     Then, activate the environment:
     ```bash
