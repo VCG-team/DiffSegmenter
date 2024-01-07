@@ -18,7 +18,7 @@ import cv2
 from transformers import BlipProcessor, BlipForConditionalGeneration
 import json
 
-os.environ["CUDA_VISIBLE_DEVICES"] = "2"
+# os.environ["CUDA_VISIBLE_DEVICES"] = "2"
 class LocalBlend:
     def __call__(self, x_t, attention_store):
         k = 1
@@ -396,7 +396,7 @@ if __name__ == '__main__':
     args.gen_attention_maps=False
     args.data_set='VOC10seg'
     # if you want to run gt label, cls_labels_val.npy file has img class label
-    args.label_file_path='dataset/voc10/cls_labels_val.npy'
+    args.label_file_path=None
     dataset_train, args.nb_classes = build_dataset(is_train=False, args=args, is_big_data=False)
     sampler_train = torch.utils.data.SequentialSampler(dataset_train)
     data_loader_train = torch.utils.data.DataLoader(

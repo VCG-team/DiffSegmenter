@@ -17,7 +17,6 @@ import os
 import cv2
 from transformers import BlipProcessor, BlipForConditionalGeneration
 import json
-os.environ["CUDA_VISIBLE_DEVICES"] = "1"
 class LocalBlend:
     def __call__(self, x_t, attention_store):
         k = 1
@@ -412,7 +411,8 @@ if __name__ == '__main__':
     args.data_set='COCO'
     # args.scales=1.0
     
-    args.label_file_path='dataset/coco/COCO_cls_labels.npy'
+    # args.label_file_path='dataset/coco/COCO_cls_labels.npy'
+    args.label_file_path=None
     dataset_train, args.nb_classes = build_dataset(is_train=False, args=args, is_big_data=False)
     sampler_train = torch.utils.data.SequentialSampler(dataset_train)
     data_loader_train = torch.utils.data.DataLoader(

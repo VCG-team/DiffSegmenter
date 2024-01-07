@@ -18,7 +18,7 @@ import os
 import cv2
 from transformers import BlipProcessor, BlipForConditionalGeneration
 import json
-os.environ["CUDA_VISIBLE_DEVICES"] = "1"
+# os.environ["CUDA_VISIBLE_DEVICES"] = "1"
 class LocalBlend:
     def __call__(self, x_t, attention_store):
         k = 1
@@ -416,7 +416,7 @@ if __name__ == '__main__':
     args = parser.parse_args(args=[])
     args.img_list='dataset/voc12'
     # if you want to run gt label, cls_labels_val.npy file has img class label
-    args.label_file_path='dataset/voc12/cls_labels.npy'
+    args.label_file_path=None
     # your file path
     args.data_path='VOCdevkit/VOC2012'
     
