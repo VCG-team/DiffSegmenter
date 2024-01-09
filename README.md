@@ -11,7 +11,7 @@ Taking the voc10 dataset as an example:
 3. evaluation_voc10.py is used to evaluate the semantic segmentation results. -->
 # Diffusion Model is Secretly a Training-free Open Vocabulary Semantic Segmenter
 
-By Jinglong Wang,  Xiawei Li,  [Jing zhang](https://scholar.google.com.hk/citations?user=XtwOoQgAAAAJ&hl=zh-CN&oi=ao), Qiangyuan Xu, [Qian Yu](https://scholar.google.com.hk/citations?user=mmm90qgAAAAJ&hl=zh-CN&oi=ao), [Sheng Lu](https://scholar.google.com.hk/citations?user=_8lB7xcAAAAJ&hl=zh-CN&oi=ao),[Dong Xu](https://scholar.google.com.hk/citations?user=7Hdu5k4AAAAJ&hl=zh-CN&oi=ao).
+By Jinglong Wang,  Xiawei Li,  [Jing zhang](https://scholar.google.com.hk/citations?user=XtwOoQgAAAAJ&hl=zh-CN&oi=ao), Qiangyuan Xu,Q [Qian Yu](https://scholar.google.com.hk/citations?user=mmm90qgAAAAJ&hl=zh-CN&oi=ao), [Sheng Lu](https://scholar.google.com.hk/citations?user=_8lB7xcAAAAJ&hl=zh-CN&oi=ao),[Dong Xu](https://scholar.google.com.hk/citations?user=7Hdu5k4AAAAJ&hl=zh-CN&oi=ao).
 
 This repository is an official implementation of the paper [Diffusion Model is Secretly a Training-free Open Vocabulary Semantic Segmenter](https://arxiv.org/abs/2309.02773).
 
