@@ -13,7 +13,7 @@ Taking the voc10 dataset as an example:
 
 By [Jinglong Wang](https://github.com/wangjl-nb), [Xiawei Li](https://github.com/Sunny599), [Jing zhang](https://scholar.google.com.hk/citations?user=XtwOoQgAAAAJ&hl=zh-CN&oi=ao), [Qiangyuan Xu](https://github.com/xu7yue), [Qin Zhou](https://github.com/Matrix53), [Qian Yu](https://scholar.google.com.hk/citations?user=mmm90qgAAAAJ&hl=zh-CN&oi=ao), [Sheng Lu](https://scholar.google.com.hk/citations?user=_8lB7xcAAAAJ&hl=zh-CN&oi=ao), [Dong Xu](https://scholar.google.com.hk/citations?user=7Hdu5k4AAAAJ&hl=zh-CN&oi=ao).
 
-This repository is an official implementation of the paper [Diffusion Model is Secretly a Training-free Open Vocabulary Semantic Segmenter](https://arxiv.org/abs/2309.02773).
+This repository is an official implementation of the paper [Diffusion Model is Secretly a Training-free Open Vocabulary Semantic Segmenter](https://arxiv.org/abs/2309.02773). And you're welcome to our [project page](https://vcg-team.github.io/DiffSegmenter-webpage/).
 
 
 ## Citing DiffSegmenter
