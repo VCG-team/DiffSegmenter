@@ -15,8 +15,11 @@ By [Jinglong Wang](https://github.com/wangjl-nb), [Xiawei Li](https://github.com
 
 This repository is an official implementation of the paper [Diffusion Model is Secretly a Training-free Open Vocabulary Semantic Segmenter](https://arxiv.org/abs/2309.02773). And you're welcome to our [project page](https://vcg-team.github.io/DiffSegmenter-webpage/).
 
-## New Paper🎉
-We are thrilled to announce our latest paper "ELBO-T2IAlign: A Generic ELBO-Based Method for Calibrating Pixel-level Text-Image Alignment in Diffusion Models", which explores the impact of original diffusion loss function. This work builds upon this repo and offers new insights into downstream tasks of diffusion models. Check it out [here](https://github.com/VCG-team/elbo-t2ialign) and explore how it enhances our understanding of diffusion model.
+## Follow-up Work Accepted by TIP 🎉
+
+We are thrilled to share that our follow-up work, **"ELBO-T2IAlign: A Generic ELBO-Based Method for Calibrating Pixel-level Text-Image Alignment in Diffusion Models"**, has been accepted by **IEEE Transactions on Image Processing (TIP)**, a **CCF-A journal**.
+
+Building upon this repository, ELBO-T2IAlign investigates the impact of the original diffusion loss function and provides new insights into pixel-level text-image alignment and downstream tasks in diffusion models. Check it out [here](https://github.com/VCG-team/elbo-t2ialign).
 
 ## Citing DiffSegmenter
 If you find DiffSegmenter useful in your research, please consider citing:
