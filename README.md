@@ -17,7 +17,7 @@ This repository is an official implementation of the paper [Diffusion Model is S
 
 ## Follow-up Work Accepted by TIP 🎉
 
-We are thrilled to share that our follow-up work, **"ELBO-T2IAlign: A Generic ELBO-Based Method for Calibrating Pixel-level Text-Image Alignment in Diffusion Models"**, has been accepted by **IEEE Transactions on Image Processing (TIP)**, a **CCF-A journal**.
+We are thrilled to share that our follow-up work, **"ELBO-T2IAlign: A Generic ELBO-Based Method for Calibrating Pixel-level Text-Image Alignment in Diffusion Models"**, also has been accepted by **IEEE Transactions on Image Processing (TIP)**, a **CCF-A journal**.
 
 Building upon this repository, ELBO-T2IAlign investigates the impact of the original diffusion loss function and provides new insights into pixel-level text-image alignment and downstream tasks in diffusion models. Check it out [here](https://github.com/VCG-team/elbo-t2ialign).
 
